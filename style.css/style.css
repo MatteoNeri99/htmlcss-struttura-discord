@@ -11,26 +11,71 @@ body{
 
 header{
     background-color:#255ee9 ;
+    color: white;
 
 }
 
-nav{
+nav,.download,.descrizione{
     display: flex;
+}
+
+nav{
     justify-content: space-around;
+    align-items:baseline;
 }
 
 .lista-nav{
     list-style: none;
-    
 }
 
 .li-nav{
     display: inline-block;
-    margin-top: 1rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
     
 }
 
 .logo,.button-accedi{
     margin-top:1rem;
+}
+
+.button-accedi{
+   font-size: .7rem;
+   width: 5rem;
+   padding: 8px;
+   border-radius: 30% ;
+}
+
+.descrizione{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.titolo-descrizione{
+    font-size: 2.35rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.descrizione-discord{
+    width: 565px;
+    text-align: center;
+    line-height:1.5rem ;
+}
+
+.download{
+    justify-content: center;
+    align-items: center;
+}
+
+.Mac{
+    margin-right: 50px;
+}
+
+.open-in-browser,.Mac{
+    padding:.7rem ;
+    margin-top: 20px;
+    border-radius: 40%;
 }
