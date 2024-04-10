@@ -24,7 +24,7 @@ nav{
     align-items:baseline;
 }
 
-.lista-nav{
+li{
     list-style: none;
 }
 
